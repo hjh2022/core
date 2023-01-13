@@ -19,6 +19,7 @@ public class BeanLifeCycleTest {
     @Configuration
     static class LifeCycleConfig{
 
+
         @Bean// 호출된 결과물이 빈으로 등록되는 것이다.
         public NetworkClient networkClient(){
             NetworkClient networkClient = new NetworkClient();
