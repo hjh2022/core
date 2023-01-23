@@ -6,6 +6,9 @@ public class Member {
     private String name;
     private Grade grade;
 
+    public Member(String username, int age) {
+    }
+
     public Long getId() {
         return id;
     }
